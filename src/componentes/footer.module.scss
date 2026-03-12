@@ -1,0 +1,154 @@
+.footer {
+    height: 100%;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0px;
+
+    @media (max-width: 768px) {
+        flex-direction: column; 
+        align-items: center;
+        height: auto; 
+        padding: 10px 0; 
+    }
+
+    .redes {
+        display: flex;
+        padding-left: 8%;
+        width: 100%;
+        flex-direction: column;
+        color: white;
+
+        .titulo {
+            font-size: 22px;
+            margin-bottom: 3px;
+            @media (max-width: 768px) {
+                padding-left: 15px;
+            }
+        }
+
+        .icono {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            color: white;
+            width: 100%;
+            margin-top: 8px;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+
+            span {
+                font-size: 21px;
+                margin-left: 10px; 
+            }
+
+            img {
+                width: 6%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            padding-left: 0; 
+        }
+
+        a:hover {
+            color: grey;
+            transition-duration: 0.4s;
+        }
+    }
+
+    .sedes {
+        display: flex;
+        width: 100%;
+        color: white;
+        flex-direction: column;
+        padding: 30px;
+
+        .titulo {
+            font-size: 22px;
+            margin-bottom: 3px;
+            @media (max-width: 768px) {
+                padding-left: 15px;
+            }
+            
+        }
+
+        .sede {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            color: white;
+            width: 100%;
+            margin-top: 8px;
+
+            span {
+                font-size: 21px;
+                margin-left: 10px; 
+            }
+
+            img {
+                width: 6%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            padding: 20px 0; 
+        }
+
+        .sede:hover {
+            color: grey;
+            transition-duration: 0.4s;
+        }
+    }
+
+    .contactos {
+        display: flex;
+        width: 100%;
+        padding: 30px;
+        color: white;
+        flex-direction: column;
+
+        .titulo {
+            font-size: 22px;
+            margin-bottom: 3px;
+            @media (max-width: 768px) {
+                padding-left: 15px;
+            }
+        }
+
+        .contacto {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            color: white;
+            width: 100%;
+            margin-top: 8px;
+
+            span {
+                font-size: 21px;
+                margin-left: 10px; 
+            }
+
+            img {
+                width: 6%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            padding: 20px 0; 
+        }
+
+        .contacto:hover {
+            color: grey;
+            transition-duration: 0.4s;
+        }
+    }
+}
+
+
+

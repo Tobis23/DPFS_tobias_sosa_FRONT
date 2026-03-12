@@ -1,0 +1,78 @@
+.actividades{
+    height: 100%;
+    color: white;
+    width: 1060px;
+    @media (max-width: 768px){
+        width: 100%;
+    }
+//-------Titulo--------//
+        .container{  
+            padding: 60px 0px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        @media (max-width: 768px){
+            width: 100%;
+            align-items: center;
+        }
+    }
+        
+        .title{
+            font-size: 40px;
+            padding-bottom: 25px;
+        
+        }
+
+        .text{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                font-size: 25px;
+                justify-content: center;
+                @media (max-width: 768px){
+                    flex-direction: column;
+                }
+                
+            }
+
+        .ejercicio{
+            display: flex;
+            align-items: center;
+            font-size: 25px;
+            width: 30%;
+            margin: 5px;
+            border-radius: 10px;
+            background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+            @media (max-width: 768px){
+                width: 80%;
+            }
+        }
+
+        .ejer{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            font-size: 25px;
+
+            width: 100%;
+            padding: 30px;
+
+            img{
+                width: 30%;
+                margin-bottom: 8px;
+            }
+
+            strong{
+                background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+                padding: 5px 30px;
+                border-radius: 10px;
+                cursor: pointer;
+                margin-top: 5px;
+            }
+
+        }
+        
+        
+
+    }
