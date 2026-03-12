@@ -13,7 +13,7 @@ export function App() {
         <div className={styles.video}>
           <ReactPlayer
           style={{backgroundColor:"black"}}
-          url={'https://www.youtube.com/watch?v=Q-f2T21zeTE'}
+          url={'https://www.youtube.com/watch?v=4-zjQvTDnbw'}
           controls
           width={'85%'}
           height={'90%'}
