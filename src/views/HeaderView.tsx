@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import styles from '../componentes/header.module.scss';
+import styles from './header.module.scss';
 import logo from '../imagenes/logo2.png';
 import Modal from '../componentes/modal/Modal';
 

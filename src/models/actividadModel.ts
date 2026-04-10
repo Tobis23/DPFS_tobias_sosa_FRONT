@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:80/api/actividades";
+const API_URL = `${import.meta.env.VITE_API_URL}/api/actividades`;
 
 export const getActividades = async () => {
   try {

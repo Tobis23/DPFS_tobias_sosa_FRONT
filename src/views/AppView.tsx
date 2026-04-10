@@ -1,4 +1,4 @@
-import styles from "../app.module.scss";
+import styles from "./app.module.scss";
 import ReactPlayer from "react-player";
 
 export function AppView() {

@@ -1,4 +1,4 @@
-import styles from '../componentes/actividades.module.scss'
+import styles from './actividades.module.scss'
 import ejercicio from '../imagenes/ejercicio.png'
 
 export function ActividadesView({ actividades }: any) {

@@ -1,4 +1,4 @@
-import styles from '../componentes/login.module.scss'
+import styles from './login.module.scss'
 import { Link } from "react-router-dom";
 
 export function LoginView({

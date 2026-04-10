@@ -1,4 +1,4 @@
-import styles from "../componentes/profile.module.scss";
+import styles from "./profile.module.scss";
 
 
 interface Props {

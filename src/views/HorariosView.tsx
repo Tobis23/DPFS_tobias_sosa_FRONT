@@ -1,4 +1,4 @@
-import styles from '../componentes/horariosventana.module.scss'
+import styles from './horariosventana.module.scss'
 import calendario from '../imagenes/calendario.png'
 
 export function HorariosView() {

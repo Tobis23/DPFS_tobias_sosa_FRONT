@@ -1,4 +1,4 @@
-import styles from '../componentes/footer.module.scss'
+import styles from './footer.module.scss'
 import youtube from '../imagenes/youtube.png'
 import instagram from '../imagenes/instagram.png'
 import facebook from '../imagenes/facebook.png'

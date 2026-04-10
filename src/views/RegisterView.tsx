@@ -1,4 +1,4 @@
-import styles from '../componentes/unete_ya.module.scss'
+import styles from './unete_ya.module.scss'
 import { Link } from "react-router-dom";
 
 interface Props {
